@@ -1,0 +1,42 @@
+/* @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+}
+@keyframes blink {
+    50% { opacity: 0; }
+}
+.web {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid white;
+    animation: typing 3s steps(20, end) forwards, blink 0.8s 2;
+} */
+
+/* @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+@keyframes blink {
+    50% { opacity: 0; }
+}
+.web {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid white;
+    animation: typing 3s steps(30, end) forwards, blink 0.8s infinite;
+    max-width: 0;
+} */
+
+.dialog {
+    width: 100%;
+    max-width: 800px
+}
+
+@media (max-width: 1024px) {
+    .dialog {
+      max-width: 600px;
+    }
+}
+
