@@ -69,9 +69,16 @@ export default function Home() {
 
   const dialogRef = useRef(null)
 
-  const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem("theme") === "dark"
-  })
+  // const [darkMode, setDarkMode] = useState(() => {
+  //   if (typeof window !== "undefined") {
+  //     return localStorage.getItem("theme") === "dark";
+  //   }
+  //   return false;
+  // })
+  // const [darkMode, setDarkMode] = useState(() => {
+  //   return localStorage.getItem("theme") === "dark"
+  // })
+  const [darkMode, setDarkMode] = useState(false)
   
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme")
@@ -737,7 +744,7 @@ export default function Home() {
                       <div className="w-full h-full flex flex-col px-10">
 
                         <div className="flex justify-center">
-                          <h2 className={`text-4xl font-bold ${inter.className}`}>PROJECT DISPLAY</h2>
+                          <h2 className={`text-2  xl font-bold ${inter.className}`}>PROJECT DISPLAY</h2>
 
                         </div>
 
