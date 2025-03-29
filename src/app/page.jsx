@@ -737,7 +737,7 @@ export default function Home() {
                       <div className="w-full h-full flex flex-col px-10">
 
                         <div className="flex justify-center">
-                          <h2 className={`text-4xl font-bold ${bigShoulders.className}`}>PROJECT DISPLAY</h2>
+                          <h2 className={`text-4xl font-bold ${inter.className}`}>PROJECT DISPLAY</h2>
 
                         </div>
 
